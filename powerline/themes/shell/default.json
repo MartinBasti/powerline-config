@@ -41,6 +41,14 @@
       {
         "function": "powerline_gitstatus.gitstatus",
         "priority": 10
+      },
+      {
+        "function": "powerline.segments.common.players.spotify_dbus",
+        "priority": 10,
+        "name": "player",
+        "args": {
+            "format": "🎶 {artist} - {title}"
+        }
       }
     ]
   }
